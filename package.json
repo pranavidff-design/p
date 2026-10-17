@@ -1,0 +1,58 @@
+{
+  "name": "pranav-sahu-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "author": {
+    "name": "Pranav Sahu"
+  },
+  "description": "Portfolio of Pranav Sahu, a B.Pharm student. Built with Next.js, Tailwind CSS and Three.js.",
+  "keywords": [
+    "portfolio",
+    "3d-portfolio",
+    "nextjs",
+    "react",
+    "typescript",
+    "tailwindcss",
+    "framer-motion",
+    "three-js",
+    "react-icons"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@heroicons/react": "^2.2.0",
+    "@react-three/drei": "^10.7.9",
+    "@react-three/fiber": "^9.8.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^14.1.0",
+    "maath": "^0.10.8",
+    "next": "16.4.0",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-icons": "^5.7.0",
+    "react-intersection-observer": "^11.0.1",
+    "tailwind-merge": "^3.6.0",
+    "three": "^0.186.1"
+  },
+  "devDependencies": {
+    "@types/node": "^26",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.5",
+    "@types/three": "^0.186.0",
+    "autoprefixer": "^10.6.0",
+    "eslint": "^10.12.0",
+    "eslint-config-next": "16.4.0",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^6"
+  },
+  "overrides": {
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.5"
+  }
+}
